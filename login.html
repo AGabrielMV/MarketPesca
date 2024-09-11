@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Login</h2>
+        <form action="/login" method="post">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Senha</label>
+            <input type="password" id="password" name="password" required>
+
+            <a href="marketplace.html"><button type="submit">Entrar</button></a>
+        </form>
+
+        <div class="link">
+            <p>Não tem uma conta? <a href="/register">Cadastre-se</a></p>
+            <p><a href="/forgot-password">Esqueceu sua senha?</a></p>
+        </div>
+    </div>
+
+</body>
+</html>
