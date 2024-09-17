@@ -1,6 +1,7 @@
-@import url(./Assets/Styles/global.css);
-@import url(./Assets/Styles/login.css);
-@import url(./assets/Styles/impacto.css);
-@import url(./assets/Styles/financiamento.css);
-@import url(./assets/Styles/produto.css);
-@import url(./assets/Styles/inicio.css);
+@import url(./src/css/partials/global.css);
+@import url(./src/css/partials/impacto.css);
+@import url(./src/css/partials/financiamento.css);
+@import url(./src/css/partials/produto.css);
+@import url(./src/css/partials/inicio.css);
+@import url(./src/css/partials/navegacao.css);
+@import url(./src/css/partials/contato.css);

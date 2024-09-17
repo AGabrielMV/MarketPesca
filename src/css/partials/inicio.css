@@ -1,0 +1,30 @@
+#inicio {
+    background-image: url("/MarketPesca/src/images/pesca02.jpg");
+    background-size: cover;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+#infoODS, #infoODS14, #infoMetaB {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#infoODS14 {
+    background-color: #0a97d9;
+}
+
+#inicio h1, #inicio h3 {
+    font-family: 'Arial', sans-serif;
+    color: #00bfff;
+}
+
+#infoODS p, #infoODS14 p, #infoMetaB p {
+    font-size: 16px;
+    line-height: 1.6;
+}
