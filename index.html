@@ -16,7 +16,7 @@
                 <li><a href="#impacto"> Impacto</a></li>
                 <li><a href="#contato"> Contato</a></li>
             </ul>        
-            <input type="submit" value="Login" onclick="openLoginPage()">
+            <input type="submit" value="Login" onclick="openLoginPage()" class="botaoLogin">
             <script>
                 function openLoginPage() {
                     window.open('login.html', '_self'); // Abre a página de Login
@@ -30,13 +30,14 @@
             <h3>O que são os ODS</h3>
             <p>Os Objetivos de Desenvolvimento Sustentável são uma coleção de 17 metas globais estabelecidas pela ONU em 2015, com o objetivo de cumprir globalmente a Agenda 2030 e um apelo global à ação para acabar com a pobreza, proteger o meio ambiente e o clima e garantir que as pessoas, em todos os lugares, possam desfrutar de paz e de prosperidade. Estas metas englobam diversas áreas da sociedade, como energia limpa, agricultura, educação, saúde e bem-estar, meio ambiente, trabalho, entre outros.</p>
         </div>
-        <div id="infoODS14">
-            <h3>ODS 14 - Vida na Água</h3>
-            <p>“Conservar e usar de forma sustentável os oceanos, mares e os recursos marinhos para o desenvolvimento sustentável.”</p>
-        </div>
-        <div id="infoMetaB">
-            <h3>ODS 14 - Meta 'B'</h3>
-            <p>“Proporcionar o acesso dos pescadores artesanais de pequena escala aos recursos marinhos e mercados”</p>
+        <div id="ODS14">
+            <div id="infoODS14">
+                <h3>ODS 14 - Vida na Água</h3>
+                <p>“Conservar e usar de forma sustentável os oceanos, mares e os recursos marinhos para o desenvolvimento sustentável.”</p>
+                <h3>Meta 'B'</h3>
+                <p>“Proporcionar o acesso dos pescadores artesanais de pequena escala aos recursos marinhos e mercados”</p>
+            </div>
+            <div id="imgODS"><img src="./src/images/SDG-14.png" alt="Imagem simbolo do ODS14"></div>
         </div>
     </section>
     <section id="produto">
@@ -80,6 +81,7 @@
         </div>
     </section>
     <section id="impacto">
+        <div class="impactosContainer">
         <div id="ambiental">
             <h1> Impacto Ambiental</h1>
             <h3>Conservação dos Recursos Marinhos:</h3>
@@ -139,22 +141,31 @@
             <p>A plataforma pode servir como um modelo de boas práticas para outras regiões e países, demonstrando como 
             a tecnologia pode ser utilizada para promover a sustentabilidade e a justiça econômica no setor pesqueiro.</p>
         </div>    
+    </div>
     </section>
     <section id="financiamento">
-        <div id="dinheiro">
-        <h1>Por que financiar?</h1>
-            <ul>
-                <li>01. Regulamentação e sustentabilidade</li>
-                <li>02. Apoio ás comunidades locais</li>
-                <li>03. Benefícios sócioeconômicos</li>
-                <li>04. Alinhamento aos objetivos globais</li>
-            </ul>
-
-        <p>A MarketPesca tem um impacto multifacetado e positivo, abrangendo aspectos ambientais, econômicos, sociais, 
-        regulatórios, tecnológicos e globais. Sua implementação pode transformar a maneira como a pesca é gerida e 
-        praticada, promovendo a sustentabilidade, a justiça econômica e o desenvolvimento comunitário.</p>
+        <div class="container">
+            <div class="text-container">
+                <h2 class="titleFinan">Por que financiar?</h2>
+                <div class="FinanList">
+                    <ul>
+                        <li>01. Regulamentação e sustentabilidade</li>
+                        <li>02. Apoio às comunidades locais</li>
+                        <li>03. Benefícios socioeconômicos</li>
+                        <li>04. Alinhamento aos objetivos globais</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="image-container">
+                <img src="./src/images/financiamento.png" alt="Imagem de Financiamento">
+                <div class="image-text">A MarketPesca tem um impacto multifacetado e positivo, abrangendo aspectos ambientais, econômicos, sociais, regulatórios, tecnológicos e globais. 
+                    Sua implementação pode transformar a maneira como a pesca é gerida e praticada, promovendo a sustentabilidade, a justiça econômica e o desenvolvimento comunitário.</div>
+            </div>
         </div>
     </section>
+
+    <section class="section-image2"></section>
+
     <section id="contato">
         <div class="entreContato">
             <h1>Entre em contato</h1>
@@ -164,10 +175,52 @@
                 <a target="_blank" a href= mailto:seasidemarket@hotmail.com><i class="bi bi-envelope"></i> seasidemarket@hotmail.com</a>
             </div>
         </div>
+        <div class="contatoFormulario"> <!--área de formulário abaixo-->
+            <h1>Quero saber mais!</h1>
+            <form action="Link de dados formulario" method="get">
+                <div>
+                    <div>
+                        <label> Nome:</label>
+                        <input type="text" name="nome">
+                    </div>
+                    <div>
+                        <label> Nome da empresa:</label>
+                        <input type="text" name="nome da empresa">
+                    </div>
+                    <div>
+                        <label> CNPJ:</label>
+                        <input type="number" name="cnpj">
+                    </div>
+                    <div>
+                        <label>Telefone:</label>
+                        <input type="number" name="numero de contato">
+                    </div>
+                    <div>
+                        <label>E-mail:</label>
+                        <input type="text" name="email">
+                    </div>
+                    <div>
+                        <label for="job">Área de interesse:</label>
+                        <select name="Área de interesse:" id="job">
+                            <option value=""></option>
+                            <option value="Financiamento">Financiamento</option>
+                            <option value="Comprar o projeto">Comprar o projeto</option>
+                            <option value="Apadrinhar o projeto">Apadrinhar o projeto</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="comment">Deseja saber algo mais?</label>
+                        <textarea name="comment"></textarea>
+                    </div>
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
     </section>
     <footer id="rodape">
-        <p>Projetos -  Seaside Market - V.01 - Setembro'24</p>
-        <p>WhatsApp: (11)99421-4541<br> E-mail:  seasidemarket@hotmail.com</p> 
+        <p>Projeto -  Seaside Market - V.01 - Setembro'24</p>
+        <p>WhatsApp: (11)99421-4541<br> E-mail:  seasidemarket@hotmail.com</p> <br>
+        <br>
         <p>&COPY; COPYRIGHT / TODOS OS DIREITOS RESERVADOS</p> 
     </footer>
 </body>
