@@ -1,19 +1,33 @@
     #impacto{
         width: 100%;
         background-color: #254e58;
-        padding-bottom: 150px;
-        padding-top: 100px;
-        padding-left: 250px;
-    }
+        padding: 50px 370px;
+        /* padding-top: 50px; */
+        /* padding-left: 300px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Centraliza verticalmente */
+        align-items: center;     /* Centraliza horizontalmente */
+        }
     
-    #impacto h1{
+    #impacto h1 {
         font-family:'Times New Roman', Times, serif;
         font-size: 45px;
+        padding-bottom: 50px;
+        color: #fff;
+    }
+
+    #impacto h2 {
+        font-size: 37px;
     }
     
+    .impactosContainer div {
+        align-self: center;
+    }
+
     .impactosContainer > div{
-        width: 85%;
-        height: 320px;
+        width: 100%;
+        height: 270px;
         background-color: #112d32;
         color: aliceblue;
         display: flex;
@@ -28,7 +42,7 @@
     }
     
     .impactosContainer > div:hover{
-        transform: scale(1.2);
+        transform: scale(1.1);
     }
     
     /* Estilo do h3 e P */

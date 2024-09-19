@@ -11,6 +11,7 @@
     font-size: 50px;
     color: #104c91;
     padding: 20px;
+    padding-top: 100px;
     margin-bottom: 20px;
 }
 
@@ -37,6 +38,7 @@
     width: 300px;
     height: 300px;
     object-fit: cover;
+    scale: 0.7;
     transition: transform 0.3s ease;
 }
 

@@ -1,0 +1,28 @@
+#rodape{
+    width: 100%;
+    background-color: #112d32;
+    color: #f5f5f5;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+}
+
+#rodape ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 25px;
+    padding-bottom: 55px;
+}
+
+#rodape a {
+    color: #f5f5f5;
+}
+
+#rodape li {
+    padding-left: 20px;
+}

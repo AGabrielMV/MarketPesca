@@ -4,7 +4,7 @@
     color: #fff;
     padding: 50px;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 130px;
     display: flex;
     flex-direction: column;
 }
@@ -12,6 +12,7 @@
 #inicio h1, #inicio h3 {
     color: #000;
     font-family: 'Arial', sans-serif;
+    padding-bottom: 15px;
 }
 
 #infoODS h3 {
@@ -38,7 +39,6 @@
 
 #infoODS14 h3 {
     padding-top: 45px;
-    padding-bottom: 15px;
     color: #fff;
 }
 

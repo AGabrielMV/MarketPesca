@@ -9,12 +9,13 @@
 <body>
     <header>
         <nav id="navegacao">
-            <h1></h1><a target="_blank" href=""><i class="ARQUIVO-LOGO"></i></a></h1>
+            <img src="./src/images/Logo2.webp" alt="Logo da Seaside Market">
             <ul>
-                <li><a href="#inicio">O que é</a></li>
-                <li><a href="#produto">Descrição</a></li>
-                <li><a href="#impacto"> Impacto</a></li>
-                <li><a href="#contato"> Contato</a></li>
+                <li><a href="#inicio">ODS</a></li>
+                <li><a href="#produto">Produto</a></li>
+                <li><a href="#impacto">Impacto</a></li>
+                <li><a href="#financiamento">Financiamento</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>        
             <input type="submit" value="Login" onclick="openLoginPage()" class="botaoLogin">
             <script>
@@ -44,9 +45,10 @@
         <h1 class="titleProd">Conheça nosso objetivo</h1>
         <div class="ProdItens">
             <div class="ProdItem">
+                <h2>Case</h2>
                 <img src="./src/images/sc.png" alt="Case de Santa Catarina">
                 <div class="ProdContent">
-                    <h2>Case: Santa Catarina</h2>
+                    <h3>Santa Catarina</h3>
                     <p>A pesca da tainha é regulamentada em território nacional e em Santa Catarina a pesca industrial está
                         proibida e os pescadores artesanais se sentem prejudicados com a redução da cota de 830t para 460t.
                     </p>
@@ -57,6 +59,7 @@
                 </div>
             </div>
             <div class="ProdItem">
+                <h2>Produto</h2>
                 <img src="./src/images/objetivo.png" alt="Seaside Market">
                 <div class="ProdContent">
                     <h2>Seaside Market</h2>
@@ -67,6 +70,7 @@
                 </div>
             </div>
             <div class="ProdItem">
+                <h1>Foco</h1>
                 <img src="./src/images/sustentabilidade2.png" alt="Sustentabilidade">
                 <div class="ProdContent">
                     <h2>Sustentabilidade</h2>
@@ -81,65 +85,83 @@
         </div>
     </section>
     <section id="impacto">
+        <h1>Impactos</h1>
         <div class="impactosContainer">
         <div id="ambiental">
-            <h1> Impacto Ambiental</h1>
-            <h3>Conservação dos Recursos Marinhos:</h3>
-            <p>Ao garantir que os pescadores respeitem os períodos permitidos pela legislação, 
-            a plataforma contribui significativamente para a preservação dos estoques de peixe 
-            e a sustentabilidade dos ecossistemas marinhos. A redução da pesca predatória e a 
-            melhor gestão dos períodos de pesca ajudam a manter a biodiversidade e a saúde dos oceanos.</p>
+            <h2> Impacto Ambiental</h2>
+            <div class="bloco1">
+                <h3>Conservação dos Recursos Marinhos:</h3>
+                <p>Ao garantir que os pescadores respeitem os períodos permitidos pela legislação, 
+                a plataforma contribui significativamente para a preservação dos estoques de peixe 
+                e a sustentabilidade dos ecossistemas marinhos. A redução da pesca predatória e a 
+                melhor gestão dos períodos de pesca ajudam a manter a biodiversidade e a saúde dos oceanos.</p>
+            </div>
         </div>
 
         <div id="economico">
-            <h1>Impacto Econômico</h1>
-            <h3>Melhoria da Cadeia de Valor: </h3>
-            <p>Monitorando os ganhos reais dos pescadores, a plataforma ajuda a garantir que eles recebam
-            um retorno financeiro justo pelo seu trabalho. Isso pode resultar em maior estabilidade econômica
-            e uma melhor qualidade de vida para as famílias envolvidas na pesca.</p>
-            <p>Com dados precisos sobre a quantidade pescada, a plataforma pode facilitar a negociação de preços
-            justos e promover a transparência no mercado de pescado, beneficiando tanto os produtores quanto os 
-            consumidores.</p>
+            <h2>Impacto Econômico</h2>
+            <div class="bloco1">
+                <h3>Melhoria da Cadeia de Valor: </h3>
+                <p>Monitorando os ganhos reais dos pescadores, a plataforma ajuda a garantir que eles recebam
+                um retorno financeiro justo pelo seu trabalho. Isso pode resultar em maior estabilidade econômica
+                e uma melhor qualidade de vida para as famílias envolvidas na pesca.</p>
+            </div>
+            <div class="bloco2">
+                <p>Com dados precisos sobre a quantidade pescada, a plataforma pode facilitar a negociação de preços
+                justos e promover a transparência no mercado de pescado, beneficiando tanto os produtores quanto os 
+                consumidores.</p>
+            </div>
         </div>
 
         <div id="economico">
-            <h1>Impacto Social</h1>
-            <h3>Desenvolvimento Comunitário: </h3>
-            <p>Ao apoiar a subsistência dos pescadores e suas famílias, a plataforma contribui para o desenvolvimento
-            socioeconômico das comunidades costeiras, promovendo a estabilidade e o bem-estar social.</p>
-        
-            <h3>Empoderamento dos Pescadores:</h3>
-            <p>A plataforma oferece aos pescadores um meio para monitorar e reportar suas atividades, aumentando a sua 
-            participação nas decisões sobre a gestão dos recursos pesqueiros e fortalecendo a sua voz nas políticas setoriais.</p>
+            <h2>Impacto Social</h2>
+            <div class="bloco1">
+                <h3>Desenvolvimento Comunitário: </h3>
+                <p>Ao apoiar a subsistência dos pescadores e suas famílias, a plataforma contribui para o desenvolvimento
+                socioeconômico das comunidades costeiras, promovendo a estabilidade e o bem-estar social.</p>
+            </div>
+            <div class="bloco2">
+                <h3>Empoderamento dos Pescadores:</h3>
+                <p>A plataforma oferece aos pescadores um meio para monitorar e reportar suas atividades, aumentando a sua 
+                participação nas decisões sobre a gestão dos recursos pesqueiros e fortalecendo a sua voz nas políticas setoriais.</p>
+            </div>
         </div>
 
         <div id="regulatorio">
-            <h1>Impacto Regulatório</h1>
-            <h3>Apoio à Tomada de Decisões:</h3>
-            <p>Dados precisos e atualizados sobre a pesca ajudam as autoridades a tomar decisões informadas sobre a
-            regulamentação dos períodos de pesca, melhorando a gestão dos recursos marinhos.</p>
-
-            <h3>Facilitação da Fiscalização:</h3>
-            <p>A plataforma facilita a fiscalização das atividades pesqueiras, permitindo que as autoridades monitorem
-            de forma mais eficiente o cumprimento das leis e regulamentos, reduzindo a pesca ilegal e não reportada.</p>
+            <h2>Impacto Regulatório</h2>
+            <div class="bloco1">
+                <h3>Apoio à Tomada de Decisões:</h3>
+                <p>Dados precisos e atualizados sobre a pesca ajudam as autoridades a tomar decisões informadas sobre a
+                regulamentação dos períodos de pesca, melhorando a gestão dos recursos marinhos.</p>
+            </div>
+            <div class="bloco2">
+                <h3>Facilitação da Fiscalização:</h3>
+                <p>A plataforma facilita a fiscalização das atividades pesqueiras, permitindo que as autoridades monitorem
+                de forma mais eficiente o cumprimento das leis e regulamentos, reduzindo a pesca ilegal e não reportada.</p>
+            </div>
         </div>
 
         <div id="tecnologico">
-            <h1>Impacto Tecnológico</h1>
-            <h3>novação no Setor Pesqueiro:</h3>
-            <p>A introdução de tecnologias para monitoramento e reporte de dados de pesca moderniza o setor, tornando-o 
-            mais eficiente e alinhado com as práticas de gestão sustentável.</p>
+            <h2>Impacto Tecnológico</h2>
+            <div class="bloco1">
+                <h3>Inovação no Setor Pesqueiro:</h3>
+                <p>A introdução de tecnologias para monitoramento e reporte de dados de pesca moderniza o setor, tornando-o 
+                mais eficiente e alinhado com as práticas de gestão sustentável.</p>
+            </div>
         </div>
 
         <div id="global">
-            <h1>Impacto Global</h1>
-            <h3>Contribuição para os ODS:</h3>
-            <p>A plataforma está alinhada com os Objetivos de Desenvolvimento Sustentável (ODS), especialmente a Meta 14,
-            promovendo a conservação e o uso sustentável dos oceanos, mares e recursos marinhos.</p>
-
-        <h3>Exemplo de Boas Práticas:</h3>
-            <p>A plataforma pode servir como um modelo de boas práticas para outras regiões e países, demonstrando como 
-            a tecnologia pode ser utilizada para promover a sustentabilidade e a justiça econômica no setor pesqueiro.</p>
+            <h2>Impacto Global</h2>
+            <div class="bloco1">
+                <h3>Contribuição para os ODS:</h3>
+                <p>A plataforma está alinhada com os Objetivos de Desenvolvimento Sustentável (ODS), especialmente a Meta 14,
+                promovendo a conservação e o uso sustentável dos oceanos, mares e recursos marinhos.</p>
+            </div>
+            <div class="bloco2">
+                <h3>Exemplo de Boas Práticas:</h3>
+                <p>A plataforma pode servir como um modelo de boas práticas para outras regiões e países, demonstrando como 
+                a tecnologia pode ser utilizada para promover a sustentabilidade e a justiça econômica no setor pesqueiro.</p>
+            </div>
         </div>    
     </div>
     </section>
@@ -170,9 +192,10 @@
         <div class="entreContato">
             <h1>Entre em contato</h1>
             <div class="links">
-                <a target="_blank" href="https://www.instagram.com/seasidemarket"><i class="bi bi-instagram"></i> seasidemarket</a>
-                <a target="_blank" href="https://api.whatsapp.com/send?phone=5511994214541"><i class="bi bi-whatsapp"></i> Manda um Oi.</a>
-                <a target="_blank" a href= mailto:seasidemarket@hotmail.com><i class="bi bi-envelope"></i> seasidemarket@hotmail.com</a>
+                <a target="_blank" href="https://api.whatsapp.com/send?phone=5511994214541"><i class="bi bi-whatsapp"></i>
+                    WhatsApp: (11)99421-4541</a> <br>
+                <a target="_blank" a href=mailto:seasidemarket@hotmail.com><i class="bi bi-envelope"></i>
+                    seasidemarket@hotmail.com</a>
             </div>
         </div>
         <div class="contatoFormulario"> <!--área de formulário abaixo-->
@@ -218,10 +241,18 @@
         </div>
     </section>
     <footer id="rodape">
-        <p>Projeto -  Seaside Market - V.01 - Setembro'24</p>
-        <p>WhatsApp: (11)99421-4541<br> E-mail:  seasidemarket@hotmail.com</p> <br>
-        <br>
-        <p>&COPY; COPYRIGHT / TODOS OS DIREITOS RESERVADOS</p> 
+        <p>Projeto - Seaside Market - V.01 - Setembro'24</p><br>
+        <div class="redesocial">
+            <ul>
+                <li><a target="_blank" href=""><i class="bi bi-instagram"></i></a></li>
+                <li><a target="_blank" href=""><i class="bi bi-facebook"></i></a></li>
+                <li><a target="_blank" href=""><i class="bi bi-youtube"></i></a></li>
+                <li><a target="_blank" href=""><i class="bi bi-linkedin"></i></a></li>
+            </ul>
+        </div>
+        <!-- <br>
+        <br> -->
+        <p>&COPY; COPYRIGHT / TODOS OS DIREITOS RESERVADOS</p>
     </footer>
 </body>
 </html>
