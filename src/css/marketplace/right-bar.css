@@ -1,0 +1,74 @@
+#right-bar {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+a.linkPagProd {
+    text-decoration: none;
+    color: inherit;
+}
+
+.produto {
+    display: flex;
+    flex-direction: row; /* Garante que a imagem e o texto estejam lado a lado */
+    justify-content: flex-start; /* Alinha os itens à esquerda */
+    align-items: flex-start; /* Alinha a imagem e o texto no topo */
+    margin: 5px 0;
+    border-radius: 15px;
+    border: 2px solid #7fffd4;
+    transition: transform 0.3s ease;
+    overflow: hidden; /* Evita que a imagem ultrapasse a borda */
+    cursor: pointer;  /* Indica que o bloco é clicável */
+}
+
+.produto:hover {
+    transform: scale(1.02);  /* Efeito de hover no bloco */
+}
+
+.produto > div {
+    padding: 15px;
+}
+
+.produto a {
+    color: #fff;
+}
+
+.imgProd {
+    width: 150px; /* Largura fixa da imagem */
+    height: auto;
+    transition: transform 0.5s ease;
+    flex-shrink: 0; /* Impede que a imagem diminua de tamanho */
+    margin-right: 15px; /* Espaço entre a imagem e o texto */
+}
+
+.imgProd:hover {
+    transform: scale(1.2);
+}
+
+.infoProd {
+    flex-grow: 1; /* Faz com que o bloco de informações ocupe o espaço restante */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Garante que o conteúdo do texto comece no topo */
+}
+
+.infoProd > h3, h4, p {
+    padding-bottom: 3px;
+}
+
+.infoProduto,
+.local {
+    font-size: 13px;
+}
+
+.precoSemDesc {
+    font-size: 13px;
+    text-decoration: line-through;
+}
+
+.infoVendedor {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
