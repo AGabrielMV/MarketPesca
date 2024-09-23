@@ -9,13 +9,35 @@
 <body>
     <header>
         <nav id="navegacao">
-            <p>Barra de Navegação</p>
+            <ul>
+                <li><a href=""><i class="bi bi-handbag-fill"></i> Página Inicial</a></li>
+                <li><a href=""><i class="bi bi-grid-fill"></i> Meus Anúncios</a></li>
+                <li><a href=""><i class="bi bi-chat-text-fill"></i> Chat</a></li>
+                <li><a href=""><i class="bi bi-bell-fill"></i> Notificações</a></li>
+            </ul>  
+        <input type="submit" value="Anunciar Grátis" onclick="openLoginPage()" class="botaoLogin">    
         </nav>
     </header>
     <main>
         <section id="left-bar">
-            <p>Barra Esquerda - Categorias</p>
-        </section>
+            <img src="./src/images/Logo2.webp" alt="Imagem de login">
+            <div class="nomelogin">
+                <p>Seaside Market</p>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar..." id="search-input">
+                <button type="submit" id="search-button">&#128269;</button>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#"><i class="bi bi-1-circle"></i> Tainha</a></li>
+                    <li><a href="#"><i class="bi bi-2-circle"></i> Camarão</a></li>
+                    <li><a href="#"><i class="bi bi-3-circle"></i> Frutos do Mar</a></li>
+                    <li><a href="#"><i class="bi bi-star"></i> Mais vendidos</a></li>
+                    <li><a href="#"><i class="bi bi-cart4"></i> Carrinho</a></li>
+                </ul>
+            </nav>
+        </section>        
         <section id="right-bar">
             <!-- <a href="" target="_blank" class="linkPagProd">
             </a> -->

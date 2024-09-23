@@ -1,6 +1,7 @@
 #financiamento {
     background-color: #254e58;
     padding: 50px 0;  /* Espaçamento interno */
+
 }
 
 #dinheiro {
@@ -11,32 +12,32 @@
 }
 
 .titleFinan {
-    font-size: 65px;
+    font-size: 60px;
     color: #99e9f2;
     font-weight: bold;
     text-align: left;
-    margin-left: 40px;
+    margin-left: 190px;
     margin-bottom: 80px;
-    margin-top: 60px;
+    margin-top: 120px;
 }
 
 .FinanList ul {
     list-style: none;
     padding: 0;
-    margin-bottom: 140px;
+    margin-bottom: 200px;
 }
 
 .FinanList li {
     font-family: 'Arial', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     color: #333;
     padding: 10px 20px;
     background-color: #f2bc94;  /* Cor de fundo suave */
     border-radius: 5px;
     margin-bottom: 20px;  /* Espaçamento entre os itens */
-    margin-left: 90px;
+    margin-left: 190px;
     transition: background-color 0.3s ease;
-    max-width: 70%;  /* Não deixa ultrapassar o limite */
+    max-width: 60%;  /* Não deixa ultrapassar o limite */
 }
 
 .FinanList li:hover {
@@ -59,7 +60,7 @@
 .image-container {
     width: 50%;
     position: relative;  /* Necessário para o texto sobreposto à imagem */
-    margin-top: 80px;
+    margin-top: 120px;
 }
 
 .image-container img {
@@ -76,7 +77,7 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
-    font-size: 20px;
+    font-size: 17px;
     padding: 20px;
     box-sizing: border-box;
     display: flex;

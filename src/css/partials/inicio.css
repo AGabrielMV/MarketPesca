@@ -9,11 +9,11 @@
     flex-direction: column;
 }
 
-#inicio h1, #inicio h3 {
+/*#inicio h1, #inicio h3 {
     color: #000;
     font-family: 'Arial', sans-serif;
     padding-bottom: 15px;
-}
+}*/
 
 #infoODS h3 {
     color: #00bfff;
@@ -21,10 +21,10 @@
 
 #infoODS, #ODS14 {
     background-color: rgba(0, 0, 0, 0.7);
-    margin: 20px auto;
-    padding: 20px;
+    margin: 20px;
+    padding: 38px;
     border-radius: 10px;
-    max-width: 800px;
+    max-width: 700px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     align-self: flex-end;
 }        

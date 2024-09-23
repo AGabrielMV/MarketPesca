@@ -15,6 +15,7 @@
         font-size: 45px;
         padding-bottom: 50px;
         color: #fff;
+        padding-top: 100px;
     }
 
     #impacto h2 {
@@ -53,6 +54,6 @@
     }
     
     .impactosContainer > div p {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 1.5;
     }

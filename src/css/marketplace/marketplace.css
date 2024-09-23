@@ -1,6 +1,6 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
-@import url(/MarketPesca/src/css/global.css);
-@import url(./navegacao.css);
+@import url(/MarketPesca/src/css/global.css); /* ./src/css/global.css */
+@import url(./nav.css);
 @import url(./main.css);
 @import url(./left-bar.css);
 @import url(./right-bar.css);

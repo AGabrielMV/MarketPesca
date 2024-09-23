@@ -33,7 +33,7 @@
 #navegacao a {
     color: #88bdbc;
     font-size: 20px;
-    margin-right: 30px;
+    margin-right: 40px;
     text-decoration: none;
     display: inline-block;
     transition: transform 0.3s ease; /* Usamos scale() para ampliar o texto sem afetar o layout */
