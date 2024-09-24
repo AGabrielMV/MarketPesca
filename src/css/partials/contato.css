@@ -36,3 +36,23 @@
     flex-direction: column;
     display: flex;
 }
+
+#contato form {
+    border-radius: 5px;
+    padding: 10px; 
+    border: 1px solid #ccc;
+}
+
+#contato input, select, textarea {
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px; /* Espaçamento entre os campos */
+    width: 100%; /* Para ajustar a largura ao contêiner */
+}
+
+#contato button {
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 15px; /* Espaçamento acima do botão */
+}

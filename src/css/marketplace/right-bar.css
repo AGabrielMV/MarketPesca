@@ -21,6 +21,7 @@ a.linkPagProd {
     transition: transform 0.3s ease;
     overflow: hidden; /* Evita que a imagem ultrapasse a borda */
     cursor: pointer;  /* Indica que o bloco é clicável */
+    width: 80%;
 }
 
 .produto:hover {
@@ -36,7 +37,8 @@ a.linkPagProd {
 }
 
 .imgProd {
-    width: 150px; /* Largura fixa da imagem */
+    width: 25%;
+    object-fit: cover;
     height: auto;
     transition: transform 0.5s ease;
     flex-shrink: 0; /* Impede que a imagem diminua de tamanho */
@@ -44,7 +46,9 @@ a.linkPagProd {
 }
 
 .imgProd:hover {
+    max-width: max-content;
     transform: scale(1.2);
+    overflow: hidden; /* Evita que a imagem ultrapasse a borda */
 }
 
 .infoProd {
