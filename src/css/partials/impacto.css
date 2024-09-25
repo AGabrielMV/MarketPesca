@@ -1,6 +1,7 @@
     #impacto{
         width: 100%;
         background-color: #254e58;
+        font-family:'Arial', sans-serif;
         padding: 50px 370px;
         display: flex;
         flex-direction: column;
@@ -9,7 +10,6 @@
         }
     
     #impacto h1 {
-        font-family:'Arial', sans-serif;
         font-size: 45px;
         padding-bottom: 50px;
         color: #fff;
@@ -46,7 +46,6 @@
     
     /* Estilo do h3 e P */
     .impactosContainer > div h3 {
-        font-family: 'Times New Roman', Times, serif;
         font-size: 20px;
         margin-bottom: 10px;
     }
