@@ -5,6 +5,81 @@
     flex-direction: column;
 }
 
+#infoSearch a {
+    color: #7fffd4;
+}
+
+#infoSearch a:hover {
+    text-decoration: underline;
+}
+
+.searchLocation {
+    position: relative;
+    z-index: 2; /* Garante que os spans fiquem sobre a borda do botão */
+}
+
+.searchLocation span {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-left: 1px solid #00ffff;
+    border-right: 1px solid #00ffff;
+    border-top: 1px solid #00ffff;
+    padding: 5px;
+    margin-right: 5px;
+    position: relative;
+    top: -1px; /* Ajusta essa margem para fazer a sobreposição */
+}
+
+.searchAreaButton {
+    width: 80%;
+    border-radius: 0px 5px 5px 5px;
+    border: solid #00ffff 1px;
+    padding: 20px;
+    position: relative;
+    z-index: 1; /* Mantém a ordem correta dos elementos */
+}
+
+.searchAreaButton button {
+    border-radius: 25px;
+    padding: 5px 10px;
+    background-color: #7fffd4;
+    font-size: small;
+    font-weight: 600;
+}
+
+.searchAreaButton button:hover {
+    background-color: #6db89f;
+}
+
+.searchResult {
+    margin-top: 20px;
+}
+
+.searchResult h1 {
+    margin-bottom: 10px;
+}
+
+.searchOptions {
+    display: flex;
+    flex-direction: row;
+}
+
+.searchOptions > div {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px 10px 0px;
+}
+
+.searchOptions > div > label {
+    padding-bottom: 5px;
+}
+
+.searchOptions select {
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
 a.linkPagProd {
     text-decoration: none;
     color: inherit;
@@ -22,6 +97,7 @@ a.linkPagProd {
     overflow: hidden; /* Evita que a imagem ultrapasse a borda */
     cursor: pointer;  /* Indica que o bloco é clicável */
     width: 80%;
+    height: 16%;
 }
 
 .produto:hover {

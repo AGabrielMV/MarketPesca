@@ -56,3 +56,28 @@
     padding: 10px 20px;
     margin-top: 15px; /* Espaçamento acima do botão */
 }
+
+.saibamais h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    padding-top: 100px;
+}
+
+.saibamais {
+    flex-direction: column;
+    display: flex;
+}
+
+.sobre h3 {
+    font-size: 15px;
+    padding-top: 100px;
+    
+}
+
+.sobre a {
+    font-size: 15px;
+}
+.sobre{
+    flex-direction: column;
+    display: flex;
+}
