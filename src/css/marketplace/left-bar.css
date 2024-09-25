@@ -1,5 +1,5 @@
 #left-bar {
-    width: 475px; /* Largura da barra lateral */
+    width: 30%; /* Largura da barra lateral */
     height: auto;
     background-color: #112d32;
     color: #fff;
@@ -15,7 +15,7 @@
 
 #containerMovel {
     position: fixed;
-    width: auto;
+    width: 20%;
     padding-top: 30px; /* Reduzido para alinhamento */
     display: flex;
     flex-direction: column;
