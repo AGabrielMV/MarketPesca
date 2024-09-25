@@ -42,13 +42,13 @@
 .searchAreaButton button {
     border-radius: 25px;
     padding: 5px 10px;
-    background-color: #7fffd4;
+    background-color: #88bdbc;
     font-size: small;
     font-weight: 600;
 }
 
 .searchAreaButton button:hover {
-    background-color: #6db89f;
+    background-color: #659191;
 }
 
 .searchResult {
@@ -92,7 +92,8 @@ a.linkPagProd {
     align-items: flex-start; /* Alinha a imagem e o texto no topo */
     margin: 5px 0;
     border-radius: 15px;
-    border: 2px solid #7fffd4;
+    border: 1px solid #456363;
+    background-color: #112d32;
     transition: transform 0.3s ease;
     overflow: hidden; /* Evita que a imagem ultrapasse a borda */
     cursor: pointer;  /* Indica que o bloco é clicável */
