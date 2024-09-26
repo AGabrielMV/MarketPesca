@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Captura o evento de envio do formulário
     document.querySelector('form').addEventListener('submit', function(event) {
         event.preventDefault(); // Impede o envio do formulário
-        window.location.href = "/MarketPesca/marketplace.html"; // Redireciona para a página desejada
+        window.location.href = "marketplace.html"; // Redireciona para a página desejada
     });
 });
 
