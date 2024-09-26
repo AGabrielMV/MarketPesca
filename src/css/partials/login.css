@@ -8,7 +8,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url("/MarketPesca/src/images/praia.jpg");
+    background-image: url("/src/images/praia.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
